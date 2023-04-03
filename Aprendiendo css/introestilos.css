@@ -1,0 +1,37 @@
+.color-hexadecimal{
+    color: #6A4C93;
+}
+.color-rgb{
+    color:rgb(140, 57, 78);
+}
+.color-rgba{
+    color:rgba(100, 45, 90, 0,6)
+}
+.fondo{
+    background-color: #E1BB80;
+    width: 600px;
+    height: 100px;
+}
+.fondo-imagen{
+    background-image: url("rosas.jpg");
+    width: 600px;
+    height: 150px;
+    background-position:left;
+}
+.ancho{
+    background-color: aqua;
+    width: 100px;
+}
+.altura{
+    background-color: #685634;
+    height: 210px;
+}
+.tarjeta{
+    border-style: solid;
+    border-color: #6A4C93;
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    background-color: aqua;
+
+}
