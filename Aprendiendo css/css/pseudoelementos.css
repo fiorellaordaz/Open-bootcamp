@@ -1,0 +1,35 @@
+.contenedor{
+    width: 300px;
+    height: 150px;
+    background-color: blueviolet;
+}
+span.frase{
+    font-style: italic;
+}
+span.frase::before{
+    content:'<<';
+    font-size: xx-small;
+}
+span.frase::after{
+    content:'>>';
+    font-size: xx-small;
+}
+
+.libro{
+    background-color: brown;
+    padding: 15px;
+    width: 300px;
+    height: 250px;
+    font-family: Arial;
+}
+.libro p::first-letter{
+    font-size:xx-large;
+}
+
+.libro p::first-line{
+    color:bisque;
+}
+.libro p::selection{
+    background-color: chocolate;
+    color:darkorange;
+}

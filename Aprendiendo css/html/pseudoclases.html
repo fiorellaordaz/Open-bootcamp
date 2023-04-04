@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo clases</title>
+    <style>
+        *{
+            padding: 0px;
+            margin:0px;
+
+        }
+        .hover{
+            width: 300px;
+            height: 150px;
+            background-color: bisque;
+        }
+        .hover:hover{
+
+            background-color: burlywood;
+        } 
+        .listado{
+            padding: 15px;
+            background-color: aqua;
+        }
+        .listado p:first-child{
+            color:aliceblue;
+        }
+        a:link{
+            color:darkorange;
+        }
+        a:visited{
+            color:chocolate;
+        }
+        a:hover{
+            color:darkgoldenrod;
+        }
+        a:active{
+            color:darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            magni nihil in voluptate sapiente distinctio vel fugiat rem? 
+            Sit, ducimus modi. Perspiciatis, aliquid.
+        </p>
+    </div>
+    <div class="listado">
+<p>listado de lista</p>
+<p>listado de lista</p>
+<p>listado de lista</p>
+<p>listado de lista</p>
+    </div>
+    <div class="enlaces">
+        <a href="https://www.google.es/" target="_blank">Ir a google</a>
+        <a href="https://www.zalando.es/" target="_blank">Ir a zalando</a>
+    </div>
+    
+</body>
+</html>

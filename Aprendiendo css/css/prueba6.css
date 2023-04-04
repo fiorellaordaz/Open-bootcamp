@@ -1,0 +1,23 @@
+
+    
+.pasa::before{
+content:"Pasa por encima";
+}
+.pasa:hover{
+    color:white;
+    background-color: green;
+    
+}
+
+.pasa::first-line{
+    visibility: hidden;
+}
+.pasa::after{
+   
+    visibility: visible;
+    content: "¡Hecho!";
+    
+    
+
+}
+
