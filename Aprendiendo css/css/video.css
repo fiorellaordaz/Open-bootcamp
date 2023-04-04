@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.demo{
+  
+    width: 100vw;
+    height: 100vw;
+    object-fit: cover;
+    position: fixed;
+}
+.h1{
+    font-family:Helvetica;
+    color:blue;
+    font-weight: bold;
+    font-size: 25pt;
+}
+.texto{
+    height: 100vw;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.texto:hover{
+  color:rgb(18, 18, 95);
+  
+
+
+}

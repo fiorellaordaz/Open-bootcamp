@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.h1{
+    font-family: sans-serif;
+    font-size: medium;
+    font-style: italic;
+    
+}
+.imagenprincipal{
+    width: 100vw;
+    height: 400px;
+    opacity: 0.4;
+    
+}
+.imagenprincipal:hover {
+    opacity:1;
+    cursor: pointer;
+}
+.imagen-galeria{
+    width: 200px;
+    height: 200px;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+.imagen-galeria:hover{
+    opacity:0.9;
+    cursor:pointer;
+}
+.demo{
+  
+    width: 100vw;
+    height: 100vw;
+    object-fit: cover;
+    position: fixed;
+}
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:blue;
+    font-weight: bold;
+    font-size: 25pt;
+}
