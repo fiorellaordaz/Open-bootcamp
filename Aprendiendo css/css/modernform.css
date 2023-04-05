@@ -4,11 +4,11 @@
     font-family:'Ubuntu', sans-serif;
    
 }
-.fondo{
+/*.fondo{
     background-color: #161717;
-}
+}*/
 .container{
-    background-color: #161717;
+    /*background-color: #161717;*/
     margin: auto;
     
     display: flex;
@@ -43,7 +43,7 @@
 .google-btn picture{
 width: 37px;
 height: 38px;
-background-color: #1A73E8;
+background-color: white;
 /*background-color:#1A73E8;*/
 border-radius: 2px;
 display: flex;
@@ -98,7 +98,6 @@ gap:10px;
 
 label span{
     font-weight: 700;
-    color:white;
 }
 label{
     display:flex;
@@ -109,7 +108,8 @@ label{
 label input{
     padding: 8px 15px;
     width: 80%;
-    background-color: #212121;
+    /*background-color: #212121;*/
+    background-color: #ccc;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -118,8 +118,8 @@ label input{
    
 }
 label input:hover{
-    /*background-color: white;*/
-    background-color: #454045;
+    background-color: white;
+    /*background-color: #454045;*/
     border: solid 1px #b8b5b5;
     box-shadow: 0 0 5px #a5a2a2;
 }
