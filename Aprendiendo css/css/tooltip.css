@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.btn{
+    position: relative;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: chocolate;
+    color:white;
+    border-bottom: 2px solid rgb(179, 89, 24);
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+.btn:hover{
+background-color: rgb(156, 76, 19);
+}
+
+.tool{
+    opacity: 0;
+    padding: 5px 10px;
+position: absolute;
+top:100%;
+left: 60%;
+width: 75%;
+transform:translateY(20%);
+color:white;
+background-color: darkslategrey;
+border-radius: 10px;
+transition: opacity 150ms;
+}
+.btn:hover .tool{
+opacity: 100;
+}
