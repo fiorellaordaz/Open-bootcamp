@@ -1,0 +1,30 @@
+{
+  "name": "prueba1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"Hola, este es mi primer ejercicio con node el en mejor Bootcamp de programación de mundo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hola",
+    "este",
+    "es",
+    "mi",
+    "primer",
+    "ejercicio",
+    "con",
+    "node",
+    "el",
+    "en",
+    "mejor",
+    "bootcamp",
+    "de",
+    "programacion",
+    "del",
+    "mundo"
+  ],
+  "author": "fiore",
+  "license": "ISC"
+}
